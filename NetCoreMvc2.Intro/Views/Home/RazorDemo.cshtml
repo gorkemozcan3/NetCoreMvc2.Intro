@@ -1,0 +1,91 @@
+﻿@model NetCoreMvc2.Intro.Models.EmployeeListViewModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>RazorDemo</title>
+</head>
+<body>
+    <p>
+        <a asp-action="Create">Create New</a>
+    </p>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>First</th>
+                <th>Last</th>
+                <th>City</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Employees)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.FirstName</td>
+                    <td>@item.LastName</td>
+                    <td>@item.CityId</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    @* Çift @ ile tek @ olarak yazılabiliyor *@
+    I am @@home
+
+    @* @ kullandıktan sonra herhangi bir C# kodunu yazabiliyoruz *@
+    <p>@DateTime.Now</p>
+    @* Eğer işlem yapılacaksa {} ile kapatılıyor *@
+    @{var date = DateTime.Now - TimeSpan.FromDays(3);}
+    <p>3 day ago @date</p>
+    @{
+        var number = 1;
+    }
+    <p>@number</p>
+
+    @if (number < 1)
+    {
+        <p>1 den küçük</p>
+    }
+    else if (number == 1)
+    {
+        <p>sayı 1</p>
+    }
+    else
+    {
+        <p>1 den büyük</p>
+    }
+
+    @{ var cnt = 0; }
+    @while (cnt < Model.Employees.Count)
+    {
+        <br /> @Model.Employees[cnt].FirstName;
+        cnt++;
+    }
+
+    @try
+    {
+
+    }
+    catch (Exception ex)
+    {
+
+        throw;
+    }
+
+    @* c# usingi kullanabiliyoruz, using içerisinde oluşan nesnenin işi bittiğinde bellekte kapladığı alanı boşaltır *@
+    @* BeginForm() Html <form> nesnesi yaratır *@
+    @using (Html.BeginForm())
+    {
+        <input type="text" id="" placeholder="Name" />
+        <button type="submit">Gönder</button>
+    }
+</body>
+</html>

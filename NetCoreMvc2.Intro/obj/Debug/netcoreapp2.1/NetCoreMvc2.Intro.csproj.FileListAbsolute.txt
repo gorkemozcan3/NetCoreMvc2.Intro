@@ -22,3 +22,30 @@ D:\Belgeler\Projeler\Udemy Eğitim\.NET Core MVC\NetCoreMvc2.Intro\NetCoreMvc2.I
 D:\Belgeler\Projeler\Udemy Eğitim\.NET Core MVC\NetCoreMvc2.Intro\NetCoreMvc2.Intro\obj\Debug\netcoreapp2.1\NetCoreMvc2.Intro.Views.pdb
 D:\Belgeler\Projeler\Udemy Eğitim\.NET Core MVC\NetCoreMvc2.Intro\NetCoreMvc2.Intro\obj\Debug\netcoreapp2.1\NetCoreMvc2.Intro.csproj.CopyComplete
 D:\Belgeler\Projeler\Udemy Eğitim\.NET Core MVC\NetCoreMvc2.Intro\NetCoreMvc2.Intro\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index3.g.cshtml.cs
+C:\Users\LST\source\repos\NetCoreMvc2.Intro\NetCoreMvc2.Intro\bin\Debug\netcoreapp2.1\NetCoreMvc2.Intro.deps.json
+C:\Users\LST\source\repos\NetCoreMvc2.Intro\NetCoreMvc2.Intro\bin\Debug\netcoreapp2.1\NetCoreMvc2.Intro.runtimeconfig.json
+C:\Users\LST\source\repos\NetCoreMvc2.Intro\NetCoreMvc2.Intro\bin\Debug\netcoreapp2.1\NetCoreMvc2.Intro.runtimeconfig.dev.json
+C:\Users\LST\source\repos\NetCoreMvc2.Intro\NetCoreMvc2.Intro\bin\Debug\netcoreapp2.1\NetCoreMvc2.Intro.dll
+C:\Users\LST\source\repos\NetCoreMvc2.Intro\NetCoreMvc2.Intro\bin\Debug\netcoreapp2.1\NetCoreMvc2.Intro.pdb
+C:\Users\LST\source\repos\NetCoreMvc2.Intro\NetCoreMvc2.Intro\bin\Debug\netcoreapp2.1\NetCoreMvc2.Intro.Views.dll
+C:\Users\LST\source\repos\NetCoreMvc2.Intro\NetCoreMvc2.Intro\bin\Debug\netcoreapp2.1\NetCoreMvc2.Intro.Views.pdb
+C:\Users\LST\source\repos\NetCoreMvc2.Intro\NetCoreMvc2.Intro\obj\Debug\netcoreapp2.1\NetCoreMvc2.Intro.csproj.CoreCompileInputs.cache
+C:\Users\LST\source\repos\NetCoreMvc2.Intro\NetCoreMvc2.Intro\obj\Debug\netcoreapp2.1\NetCoreMvc2.Intro.RazorAssemblyInfo.cache
+C:\Users\LST\source\repos\NetCoreMvc2.Intro\NetCoreMvc2.Intro\obj\Debug\netcoreapp2.1\NetCoreMvc2.Intro.RazorAssemblyInfo.cs
+C:\Users\LST\source\repos\NetCoreMvc2.Intro\NetCoreMvc2.Intro\obj\Debug\netcoreapp2.1\NetCoreMvc2.Intro.AssemblyInfoInputs.cache
+C:\Users\LST\source\repos\NetCoreMvc2.Intro\NetCoreMvc2.Intro\obj\Debug\netcoreapp2.1\NetCoreMvc2.Intro.AssemblyInfo.cs
+C:\Users\LST\source\repos\NetCoreMvc2.Intro\NetCoreMvc2.Intro\obj\Debug\netcoreapp2.1\NetCoreMvc2.Intro.TagHelpers.input.cache
+C:\Users\LST\source\repos\NetCoreMvc2.Intro\NetCoreMvc2.Intro\obj\Debug\netcoreapp2.1\NetCoreMvc2.Intro.TagHelpers.output.cache
+C:\Users\LST\source\repos\NetCoreMvc2.Intro\NetCoreMvc2.Intro\obj\Debug\netcoreapp2.1\NetCoreMvc2.Intro.RazorCoreGenerate.cache
+C:\Users\LST\source\repos\NetCoreMvc2.Intro\NetCoreMvc2.Intro\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index2.g.cshtml.cs
+C:\Users\LST\source\repos\NetCoreMvc2.Intro\NetCoreMvc2.Intro\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index3.g.cshtml.cs
+C:\Users\LST\source\repos\NetCoreMvc2.Intro\NetCoreMvc2.Intro\obj\Debug\netcoreapp2.1\NetCoreMvc2.Intro.RazorTargetAssemblyInfo.cache
+C:\Users\LST\source\repos\NetCoreMvc2.Intro\NetCoreMvc2.Intro\obj\Debug\netcoreapp2.1\NetCoreMvc2.Intro.RazorTargetAssemblyInfo.cs
+C:\Users\LST\source\repos\NetCoreMvc2.Intro\NetCoreMvc2.Intro\obj\Debug\netcoreapp2.1\NetCoreMvc2.Intro.Views.pdb
+C:\Users\LST\source\repos\NetCoreMvc2.Intro\NetCoreMvc2.Intro\obj\Debug\netcoreapp2.1\NetCoreMvc2.Intro.dll
+C:\Users\LST\source\repos\NetCoreMvc2.Intro\NetCoreMvc2.Intro\obj\Debug\netcoreapp2.1\NetCoreMvc2.Intro.pdb
+C:\Users\LST\source\repos\NetCoreMvc2.Intro\NetCoreMvc2.Intro\obj\Debug\netcoreapp2.1\NetCoreMvc2.Intro.csproj.CopyComplete
+C:\Users\LST\source\repos\NetCoreMvc2.Intro\NetCoreMvc2.Intro\obj\Debug\netcoreapp2.1\Razor\Views\Home\RazorDemo.g.cshtml.cs
+C:\Users\LST\source\repos\NetCoreMvc2.Intro\NetCoreMvc2.Intro\obj\Debug\netcoreapp2.1\Razor\Views\Home\EmployeeForm.g.cshtml.cs
+C:\Users\LST\source\repos\NetCoreMvc2.Intro\NetCoreMvc2.Intro\obj\Debug\netcoreapp2.1\Razor\Views\Employee\Add.g.cshtml.cs
+C:\Users\LST\source\repos\NetCoreMvc2.Intro\NetCoreMvc2.Intro\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs

@@ -1,0 +1,44 @@
+﻿@model NetCoreMvc2.Intro.Models.EmployeeAddViewModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Add</title>
+</head>
+<body>
+    @* asp- ile başlayan propertyler Tag Helpers *@
+    <div class="container">
+        <h4>EmployeeAddViewModel</h4>
+        <hr />
+        <div class="row">
+            <div class="col-md-4">
+                <form asp-controller="Employee" asp-action="Add">
+                    @*<div asp-validation-summary="ModelOnly" class="text-danger"></div>*@
+                    <div class="form-group">
+                        <label asp-for="Employee.Id"></label> <input asp-for="Employee.Id" />
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Employee.FirstName"></label>   <input asp-for="Employee.FirstName" />
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Employee.LastName"></label>   <input asp-for="Employee.LastName" />
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Employee.CityId"></label>   <select asp-for="Employee.CityId" asp-items="Model.Cities"></select>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Create" class="btn btn-default" />
+                    </div>
+                </form>
+            </div>
+        </div>
+        <employee-list count="2"></employee-list>
+    </div>
+</body>
+</html>
