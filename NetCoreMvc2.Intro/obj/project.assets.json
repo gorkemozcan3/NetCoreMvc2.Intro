@@ -12217,6 +12217,8 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
       "Microsoft.AspNetCore.App >= 2.1.1",
+      "Microsoft.EntityFrameworkCore.SqlServer >= 2.1.1",
+      "Microsoft.EntityFrameworkCore.Tools >= 2.1.1",
       "Microsoft.NETCore.App >= 2.1.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.1.1"
     ]
@@ -12228,11 +12230,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LST\\Source\\Repos\\NetCoreMvc2.Intro\\NetCoreMvc2.Intro\\NetCoreMvc2.Intro.csproj",
+      "projectUniqueName": "C:\\Users\\LST\\source\\repos\\NetCoreMvc2.Intro\\NetCoreMvc2.Intro\\NetCoreMvc2.Intro.csproj",
       "projectName": "NetCoreMvc2.Intro",
-      "projectPath": "C:\\Users\\LST\\Source\\Repos\\NetCoreMvc2.Intro\\NetCoreMvc2.Intro\\NetCoreMvc2.Intro.csproj",
+      "projectPath": "C:\\Users\\LST\\source\\repos\\NetCoreMvc2.Intro\\NetCoreMvc2.Intro\\NetCoreMvc2.Intro.csproj",
       "packagesPath": "C:\\Users\\LST\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LST\\Source\\Repos\\NetCoreMvc2.Intro\\NetCoreMvc2.Intro\\obj\\",
+      "outputPath": "C:\\Users\\LST\\source\\repos\\NetCoreMvc2.Intro\\NetCoreMvc2.Intro\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12267,6 +12269,16 @@
             "target": "Package",
             "version": "[2.1.1, )",
             "autoReferenced": true
+          },
+          "Microsoft.EntityFrameworkCore.SqlServer": {
+            "target": "Package",
+            "version": "[2.1.1, )"
+          },
+          "Microsoft.EntityFrameworkCore.Tools": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[2.1.1, )"
           },
           "Microsoft.NETCore.App": {
             "target": "Package",

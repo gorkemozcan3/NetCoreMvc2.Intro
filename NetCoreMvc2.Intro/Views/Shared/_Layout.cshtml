@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+
+    <script src="~/lib/jquery/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/js/bootstrap.min.js"></script>
+    <link href="~/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    @* Menu ve Footer sayfada Sabit gelir, RenderBody kısmı ise değişken olacak *@
+    <div>Menu</div>
+    <div>
+        @* Viewın içindeki kodları bu kısma yerleştirir *@
+        @RenderBody() 
+    </div>
+    <div>Footer</div>
+    <div>
+        @* Viewde oluşturulan section çağırılıyor. False değeri section yoksa getirme demek *@
+        @RenderSection("MySection", false) 
+    </div>
+</body>
+</html>

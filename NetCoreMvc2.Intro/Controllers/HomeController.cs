@@ -129,7 +129,7 @@ namespace NetCoreMvc2.Intro.Controllers
 
         // Route Datası ile Model Binding işlemleri (örnek olarak; alınan parametreye göre arama işlemi)
         // home/RouteData/15 ==> sona yazılan değer parametre oluyor, query string gibi...
-        public string RouteData(int id)
+        public string RouteDataa(int id)
         {
             return id.ToString();
         }
