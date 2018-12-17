@@ -32,7 +32,7 @@ namespace NetCoreMvc2.Intro
             services.AddMvc();
 
             // Entity framework configurasyonu  
-            //services.AddDbContext<SchoolContext>(options => options.UseSqlServer(_configuration["DbConnection"]));
+            services.AddDbContext<SchoolContext>(options => options.UseSqlServer(_configuration["DbConnection"]));
             services.AddDbContext<AppIdentityDbContext>(options => options.UseSqlServer(_configuration["DbConnection"]));
 
             // Identity configurasyonu

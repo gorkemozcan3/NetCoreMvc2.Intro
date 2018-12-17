@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -20,6 +21,9 @@ namespace NetCoreMvc2.Intro.Controllers
         }
 
         // GET: Student
+        // Üstüne geldiği fonksiyonu çalıştırmak için login olunması gerektiğini belirtir.
+        // Controllerın üstüne eklenirse tüm controller actionları için geçerli olur
+        [Authorize]
         public async Task<IActionResult> Index()
         {
             return View(await _context.Students.ToListAsync());
