@@ -1,0 +1,25 @@
+﻿@page
+@model NetCoreMvc2.Intro.Pages.Customer.IndexModel
+@{
+    Layout = null;
+}
+
+@* Razor page altyapısı kullanılıyor 
+   Angular benzeri bir yapı ile bir html ve cs(component gibi) dosyaları oluşturuyor (code behind cs dosyasına yazılır)
+   Customer/Index olarak çağırabiliyoruz, Customer için controller olmadığından standart isimlendirme Pages altına bakıyor 
+   Yapı web formstaki default.aspx ve default.cs mantığına benziyor *@
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <h1>razor page!</h1>
+
+    @* Normal razor pagelerde olduğu gibi @Model. diyerek code behind da tanımlanmış nesneleri kullanabiliyoruz *@
+    <h2>@Model.Message</h2>
+</body>
+</html>

@@ -1,0 +1,17 @@
+﻿
+@{
+    Exception exception = ViewData["HandleException"] as Exception;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Error</title>
+</head>
+<body>
+    <h2>@exception.Message</h2> @* Mesaj gösteriliyor *@
+    <h4>@exception.StackTrace</h4> @* Hata detayları gösteriliyor *@
+</body>
+</html>

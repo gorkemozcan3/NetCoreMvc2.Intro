@@ -1,0 +1,41 @@
+﻿@page
+@model NetCoreMvc2.Intro.Pages.Studentp.IndexModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Id</th>
+            <th>Firstname</th>
+            <th>Last Name</th>
+            <th>Email</th>
+        </tr>
+        @foreach (var student in Model.Students)
+        {
+            <tr>
+                <td>@student.Id</td>
+                <td>@student.FirstName</td>
+                <td>@student.LastName</td>
+                <td>@student.Email</td>
+            </tr>
+        }
+    </table>
+    <hr />
+    <form method="post">
+        FirstName: <input asp-for="Student.FirstName" /><br />
+        LastName: <input asp-for="Student.LastName" /><br />
+        Email: <input asp-for="Student.Email" /><br />
+        <input type="submit" value="Create"/>
+    </form>
+</body>
+</html>

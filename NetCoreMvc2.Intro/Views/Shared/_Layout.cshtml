@@ -12,6 +12,8 @@
 <body>
     @* Menu ve Footer sayfada Sabit gelir, RenderBody kısmı ise değişken olacak *@
     <div>Menu</div>
+    @* View Component ismi parametre geçilerek çağırılıyor*@
+    @await Component.InvokeAsync("StudentList", new { filter = "e" }) @* Filtereli kullanım örmeği, zorunlu değil*@
     <div>
         @* Viewın içindeki kodları bu kısma yerleştirir *@
         @RenderBody() 

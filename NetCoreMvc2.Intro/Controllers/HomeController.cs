@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using NetCoreMvc2.Intro.Entities;
+using NetCoreMvc2.Intro.Filters;
 using NetCoreMvc2.Intro.Models;
 
 namespace NetCoreMvc2.Intro.Controllers
@@ -15,8 +16,11 @@ namespace NetCoreMvc2.Intro.Controllers
             return "Hello MVC Core";
         }
 
+        [HandleException(ViewName ="Error",ExceptionType = typeof(DivideByZeroException))] // Hata alınma durumunda Filters altındaki class ı cağırıyor
         public ViewResult Index2()
         {
+            throw new DivideByZeroException();
+            //throw new Exception("hata...");
             return View();
         }
 

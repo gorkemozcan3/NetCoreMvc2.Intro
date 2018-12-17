@@ -1,0 +1,11 @@
+﻿@model NetCoreMvc2.Intro.Models.StudentListViewModel
+
+@foreach (var student in Model.Students)
+{
+
+    <div>
+        <br />
+        @student.FirstName
+    </div>
+}
+<hr />
